@@ -3,7 +3,7 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoEFCoreListBugDemo.Models;
 using MongoEFCoreListsBugDemo;
-using System.Diagnostics;
+
 
 
 //there is a script in the solution folder for creating the demo document you'll need to reproduce the bug,
