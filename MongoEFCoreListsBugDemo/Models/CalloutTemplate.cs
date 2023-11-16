@@ -17,7 +17,8 @@ namespace MongoEFCoreListBugDemo.Models
     }
     public class CallRound
     {
-        public List<CollectionReference>? jobQualifiers { get; set; }
+        //if you comment this list out, and the database is properly configured/connected, your query will work
+        public List<CollectionReference>? jobQualifiers { get; set; } 
         public bool isOvertime { get; set; }
         public bool offerOrientedOnly { get; set; }
         public string genderRequirements { get; set; }

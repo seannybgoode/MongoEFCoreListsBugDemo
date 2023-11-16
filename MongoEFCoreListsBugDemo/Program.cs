@@ -8,6 +8,7 @@ using System.Diagnostics;
 
 //there is a script in the solution folder for creating the demo document you'll need to reproduce the bug,
 //it will create the collection and add one document, we use NoSQLBooster, but this should work in your db frontend tool
+//** refer to CalloutTemplate.cs for the offending list **
 Console.WriteLine("Entity Framework Lists Bug Demo");
 string dbSecret = "username:password";
 var connectionStr = string.Format("your connection string", dbSecret);
